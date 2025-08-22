@@ -58,10 +58,23 @@
     "moment": "^2.29.4",
     "mongodb": "^3.6.0",
     "morgan": "^1.10.0",
-    "multer": "*",
     "nock": "^12.0.3",
     "nodemon": "^3.0.1",
     "xml2js": "^0.6.2"
+  },
+  "overrides": {
+    "minimatch": {
+      "brace-expansion": "2.0.2"
+    },
+    "glob": {
+      "brace-expansion": "2.0.2"
+    },
+    "morgan": {
+      "on-headers": "1.1.0"
+    },
+    "compression": {
+      "on-headers": "1.1.0"
+    }
   },
   "devDependencies": {
     "@types/express": "^4.17.7",
